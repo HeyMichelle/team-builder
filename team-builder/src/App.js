@@ -7,7 +7,7 @@ import "./App.css";
 function App() {
   const [teamMates, setTeamMates] = useState([
     {
-      id: "1",
+      id: Date.now(),
       name: "Michelle",
       email: "hey@hey.com",
       role: "Front-end Engineer"
